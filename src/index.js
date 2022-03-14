@@ -29,43 +29,43 @@ const engines = {
 
 const presets = {
   Balanced: {
-    population: [9, 2000],
+    population: [9, 4000],
     seed: [-0.02, 0.06, 0.0, 20.0, 20.0, 70.0, 0.05, false],
   },
   Chaos: {
-    population: [6, 2000],
+    population: [6, 4000],
     seed: [0.02, 0.04, 0.0, 30.0, 30.0, 100.0, 0.01, false],
   },
   Diversity: {
-    population: [12, 4020000],
+    population: [12, 40000],
     seed: [-0.01, 0.04, 0.0, 20.0, 10.0, 60.0, 0.05, true],
   },
   Frictionless: {
-    population: [6, 2000],
+    population: [6, 4000],
     seed: [0.01, 0.005, 10.0, 10.0, 10.0, 60.0, 0.0, true],
   },
   Gliders: {
-    population: [6, 2000],
+    population: [6, 4000],
     seed: [0.0, 0.06, 0.0, 20.0, 10.0, 50.0, 0.1, true],
   },
   Homogeneity: {
-    population: [4, 2000],
+    population: [4, 4000],
     seed: [0.0, 0.04, 10.0, 10.0, 10.0, 80.0, 0.05, true],
   },
   'Large Clusters': {
-    population: [6, 2000],
+    population: [6, 4000],
     seed: [0.025, 0.02, 0.0, 30.0, 30.0, 100.0, 0.2, false],
   },
   'Medium Clusters': {
-    population: [6, 2000],
+    population: [6, 4000],
     seed: [0.02, 0.05, 0.0, 20.0, 20.0, 50.0, 0.05, false],
   },
   Quiescence: {
-    population: [6, 2000],
+    population: [6, 4000],
     seed: [-0.02, 0.1, 10.0, 20.0, 20.0, 60.0, 0.2, false],
   },
   'Small Clusters': {
-    population: [6, 2000],
+    population: [6, 4000],
     seed: [-0.005, 0.01, 10.0, 10.0, 20.0, 50.0, 0.01, false],
   },
 };
