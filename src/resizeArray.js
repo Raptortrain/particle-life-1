@@ -5,7 +5,7 @@ function resizeArray(array, size, defaultValue) {
     array.length = size;
   } else {
     while (delta++ < 0) {
-      array.push(defaultValue);
+      
     }
   }
 
